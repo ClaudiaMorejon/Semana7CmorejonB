@@ -64,7 +64,7 @@ namespace Semana7CmorejonB
 
         public static IEnumerable<Estudiante> Update(SQLiteConnection db, string nombre,string usuario,string clave,int id)
         {
-            return db.Query<Estudiante>("UPDATE FROM Estudiante SET Nombre= ? , Usuario =? ,"+
+            return db.Query<Estudiante>("UPDATE Estudiante SET Nombre= ? , Usuario =? ,"+
                 "Clave =? where Id =?",nombre,usuario,clave,id);
         }
     }
