@@ -11,7 +11,7 @@
             <Label Text="Usuario"/>
             <Entry Placeholder="Introduce el usuario" x:Name="Usuario"/>
             <Label Text="Contraseña"/>
-            <Entry Placeholder="Introduce la contraseña" x:Name="Clave"/>
+            <Entry Placeholder="Introduce la contraseña" x:Name="Clave" IsPassword="True"/>
 
             <Button x:Name="btn_agregar" Text="Agregar" Clicked="btn_agregar_Clicked" BackgroundColor="Azure"/>
         </StackLayout>
