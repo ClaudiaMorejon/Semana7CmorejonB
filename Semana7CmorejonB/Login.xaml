@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Semana7CmorejonB.Login">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="30" Spacing="30">
             <Entry Placeholder="Usuario" Keyboard="Email" x:Name="usuario"/>
             <Entry Placeholder="Contraseña" IsPassword="True" x:Name="clave"/>
 

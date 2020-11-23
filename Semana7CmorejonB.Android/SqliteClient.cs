@@ -21,8 +21,8 @@ namespace Semana7CmorejonB.Droid
     {
         public SQLiteAsyncConnection GetConnection()
         {
-            var documentspath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
-            var path = Path.Combine(documentspath, "uisrael.db");
+            var documentsPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
+            var path = Path.Combine(documentsPath, "uisrael.db");
             return new SQLiteAsyncConnection(path);
         }
     }
