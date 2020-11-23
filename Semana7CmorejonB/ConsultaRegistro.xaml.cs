@@ -16,5 +16,10 @@ namespace Semana7CmorejonB
         {
             InitializeComponent();
         }
+
+        private void ListaUsuario_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+
+        }
     }
 }

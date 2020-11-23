@@ -3,10 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Semana7CmorejonB.Registrar">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+        <ScrollView>
+        <StackLayout Padding="20" Spacing="30">
+            <Label Text="Nombre"/>
+            <Entry Placeholder="Introduce el nombre" x:Name="Nombre"/>
+            <Label Text="Usuario"/>
+            <Entry Placeholder="Introduce el usuario" x:Name="Usuario"/>
+            <Label Text="Contraseña"/>
+            <Entry Placeholder="Introduce la contraseña" x:Name="Clave"/>
+
+            <Button x:Name="btn_agregar" Text="Agregar" Clicked="btn_agregar_Clicked" BackgroundColor="Azure"/>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
